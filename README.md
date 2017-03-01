@@ -1,5 +1,22 @@
 # arm64-docker-binaries
 
+For Update to New Release
+-------------------------
+For those who are using the previous v1.12.1 version, update to v1.13.1 is simple.
+donwload this release. Change ownership of all binaries to root:root
+
+and run the following commands:
+
+sudo systemctl stop docker
+sudo cp pathToNewBinaries/* /usr/bin/
+sudo systemctl start docker
+docker info
+
+and you will see 1.13.1 is running.
+
+For First Time Install
+----------------------
+
 For ODROID-C2 users using the Armbian Jessie server, docker.io (the docker engine) is not available in
 the repository meaning that you cannot apt-get install docker.
 
