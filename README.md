@@ -7,7 +7,8 @@ donwload this release. Change ownership of all binaries to root:root
 
 and run the following commands:
 
-```sudo systemctl stop docker
+```
+sudo systemctl stop docker
 
 sudo cp pathToNewBinaries/* /usr/bin/
 
