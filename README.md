@@ -7,10 +7,10 @@ donwload this release. Change ownership of all binaries to root:root
 
 and run the following commands:
 
-sudo systemctl stop docker
-sudo cp pathToNewBinaries/* /usr/bin/
-sudo systemctl start docker
-docker info
+>sudo systemctl stop docker
+>sudo cp pathToNewBinaries/* /usr/bin/
+>sudo systemctl start docker
+>docker info
 
 and you will see 1.13.1 is running.
 
