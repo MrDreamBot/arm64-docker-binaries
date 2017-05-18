@@ -42,8 +42,8 @@ else
 	echo docker group already exists, skipping set up of systemd docker.service
 fi
 
-echo When you are ready, reboot the system.
+echo "When you are ready, reboot the system."
 
-docker.service can be controlled using the command:
+echo "docker.service can be controlled using the command:"
 
-echo sudo systemctl start|sop docker.service
+echo "sudo systemctl start|stop docker.service"
